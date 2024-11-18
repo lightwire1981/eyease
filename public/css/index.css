@@ -9,6 +9,7 @@ body {
 
 .Div-Main-Index {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80vw;
@@ -16,9 +17,55 @@ body {
     background-color: rgba(205, 92, 92, 0.3);
 }
 
-.Div-Main-Login-Window {
+.Div-Login-Window {
+    display: flex;
+    flex-direction: column;
     width: 20vw;
+    min-width: 400px;
     height: 20vh;
+    max-height: 200px;
     border-radius: 2vh;
-    background-color: darkcyan;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div-Login-Input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.Label-Title {
+    margin-bottom: 1vh;
+}
+
+.Div-Login-Form {
+    width: 80%;
+    margin-right: 1vw;
+}
+
+.Btn-Login {
+    width: 20%;
+    height: 5.5vh;
+}
+
+.Div-Login {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    margin-top: 0.2vh;
+    margin-bottom: 0.2vh;
+}
+
+.Input-Login {
+    height: 2.5vh;
+    margin-left: 0.5vw;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: lightsteelblue;
 }
