@@ -5,6 +5,9 @@ $(()=>{
 
 function setWidget() {
     $('.Btn-Login').on('click', (e)=>{
-        alert("function Test")
+        Swal.fire({
+            title: 'Login Test',
+            text: 'Login Function Test',
+        })
     })
 }
